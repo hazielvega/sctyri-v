@@ -23,7 +23,7 @@ export function AdminSidebar() {
                 <SidebarMenu>
                     <SidebarMenuItem>
                         <SidebarMenuButton size="lg" asChild>
-                            <Link href="/dashboard" prefetch>
+                            <Link href="/admin" prefetch>
                                 <AppLogo />
                             </Link>
                         </SidebarMenuButton>
