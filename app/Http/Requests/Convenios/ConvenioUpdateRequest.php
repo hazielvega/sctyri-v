@@ -21,8 +21,7 @@ class ConvenioUpdateRequest extends FormRequest
      */
     public function rules(): array
     {
-        return [
-            //
-        ];
+        // Reusa las reglas de store, pero podrías agregar validación especial en update
+        return parent::rules();
     }
 }
